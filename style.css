@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+
+ul li
+{
+        cursor: pointer;
+        position: relative;
+        padding: 20px 8px 12px 30px;
+        background: #eee;
+        font-size: 18px;
+        transition: 0.2s;
+        
+}
+
+ul li:hover {
+    background: #ddd;
+  }
+
+.dell
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    background-color: royalblue;
+    border: 1px solid;
+}
+.dell:hover
+{
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+}
+
+.header
+{
+  background-color:orangered;
+    padding: 70px 90px;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 70px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    height: 40px;
+}
+
+button
+{
+  padding: 10px;
+  width: 10%;
+  background-color: cyan;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-left: 10px;
+  box-shadow: none;
+
+}
+
+h2
+{
+  font-size: 50px;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: numbers;
+  background: lightgreen;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+ul li:nth-child(odd) {
+background: lightskyblue;
+}
+ul li:hover {
+  background: #ddd;
+}
+ul {
+  margin-left: 80px;
+  margin-right: 80px;
+
+  padding: 0;
+}
